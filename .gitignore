@@ -1,17 +1,10 @@
-# Dependencies
-node_modules/
+# Root-level gitignore
+
+# Frontend build artifacts
 frontend/node_modules/
-
-# Build output
-dist/
 frontend/dist/
-
-# Environment variables (contains secrets — never commit)
-.env
 frontend/.env
-*.env.local
-
-# Vite cache
+frontend/.env.local
 frontend/.vite/
 
 # OS files
@@ -20,4 +13,3 @@ Thumbs.db
 
 # Logs
 *.log
-npm-debug.log*
